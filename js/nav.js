@@ -5,3 +5,4 @@ document.getElementById("themeBtn").addEventListener("click",
         document.body.style.backgroundColor = "#" + randomTheme;
     }
 )
+
