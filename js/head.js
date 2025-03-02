@@ -1,7 +1,8 @@
 // discoverSomething
-document.getElementById("discoverSomething").addEventListener("click",
-    function(){
-        window.location.href = "blog.html";
+document.getElementById("go").addEventListener("click",
+    function () {
+        window.location.href = "../../blog.html";
+
     }
 )
 
@@ -15,3 +16,5 @@ const year = today.getFullYear();
 
 const updatedDate = `${currentDay}, ${month}, ${day}, ${year}`;
 document.getElementById("dateTime").innerText = updatedDate;
+
+

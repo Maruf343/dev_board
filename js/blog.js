@@ -1,5 +1,7 @@
 // back to desk
-document.getElementById("backToDesk").addEventListener("click",
+document.getElementById('go-main').addEventListener("click",
     function(){
-        window.location.href = "../index.html";
-})
+        window.location.href = "../../index.html";
+        
+    }
+)
