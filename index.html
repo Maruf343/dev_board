@@ -23,9 +23,9 @@
                 <div class="nav-icon flex mr-3 ">
                     <div class="nav-icon-img flex items-center mr-6 bg-c p-3 rounded-3xl">
                         <img src="assets/checkbox.png" alt="">
-                        <h3 class="text-2xl font-bold ml-3">23</h3>
+                        <h3 id="task-checked" value="23" class="text-2xl font-bold ml-3">23</h3>
                     </div>
-                    <img class="bg-c rounded-full p-2" src="assets/theme-btn.png" alt="">
+                    <img id="themeBtn" class="bg-c rounded-full p-2" src="assets/theme-btn.png" alt="">
                 </div>
             </div>
         </nav>
@@ -41,10 +41,10 @@
                                 <img class="p-3 bg-white rounded-full" src="assets/checkbox.png" alt="">
                                 <div class="blog-content ml-2">
                                     <p class="font-bold">Task Assign</p>
-                                    <h4 class="font-bold">05</h4>
+                                    <h4 id="task-assign" value="5" class="font-bold">05</h4>
                                 </div>
                             </div>
-                            <div class="grow-7  p-5 bg-linear-to-r from-blue-500 to-cyan-500 justify-center items-center flex rounded-lg">
+                            <div id="discoverSomething" class="grow-7 cursor-pointer p-5 bg-linear-to-r from-blue-500 to-cyan-500 justify-center items-center flex rounded-lg">
                                 <img class="" src="assets/board.png" alt="">
                                 <div class="blog-content ml-2">
                                     <p class="text-white">Discover Something</p>
@@ -53,7 +53,7 @@
                             </div>
                             <div class="grow-3 bg-c p-5 rounded-lg flex justify-center items-center">
                                 <img class="bg-white rounded-full p-2" src="assets/calender.png" alt="">
-                                <div class="blog- ml-2">
+                                <div id="dateTime" class="blog- ml-2">
                                     <p class="">Wed,</p>
                                     <h4 class="font-bold">Jul 28 2025</h4>
                                 </div>
@@ -67,14 +67,14 @@
                         <!-- card-1 -->
                          <div class="card-1 bg-c p-5 rounded-lg">
                             <p class="bg-white p-2 rounded-lg w-32 flex justify-center">ShopEase</p>
-                            <h4 class="text-xl my-3">Fix Mobile Button Issue </h4>
+                            <h4 id="first-card-work" class="text-xl my-3">Fix Mobile Button Issue </h4>
                             <p class="bg-white p-3 rounded-lg font-light ">Debug using chrome <br>Debtoold,check for overloop</p>
                             <div class="b-footer flex justify-between mt-3">
                                 <div class="b-footer-content">
                                     <p class="font-light">Deadline</p>
                                 <h5 class="font-bold">21 March 2025</h5>
                                 </div>
-                                <button class="btn btn-primary rounded-lg">Completed</button>
+                                <button id="1st-button" class="btn btn-primary rounded-lg">Completed</button>
                             </div>
                          </div>
                         <!-- card-2 -->
@@ -151,20 +151,19 @@
                             <img src="assets/activity.png" alt="">
                             <h5 class="ml-4 mb-5 text-center ">Activity Log</h5>
                         </div>
-                        <button class="btn btn-primary my-3 ">Clear History</button>
+                        <button id="clearHistory" class="btn btn-primary my-3 ">Clear History</button>
                     </div>
-                    <div class="mt-5">
-                        <p class="bg-slate-100 rounded-lg ml-2 p-2 ">You have Complete The Task Add Dark Mode at 12:48:15 PM</p>
-                      </div>
-          
-                      <div class="mt-5">
-                        <p class="bg-slate-100 rounded-lg ml-2 p-2 ">You have Complete The Task Add Dark Mode at 12:48:15 PM</p>
-                      </div>  
-                    </div>                 
+                    <hr class="mt-5" />
+                <div id="container">
+                    
+                </div>                 
                 </div>
             </section>
         </main>
-    
     </section>
+    <!-- js link -->
+    <script src="js/nav.js"></script>
+    <script src="js/head.js"></script>
+    <script src="js/main.js"></script>
     </body>
 </html>
